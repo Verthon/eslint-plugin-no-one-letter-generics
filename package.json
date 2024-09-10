@@ -1,12 +1,19 @@
 {
-  "name": "eslint-plugin-no-one-letter-generics",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+	"name": "eslint-plugin-no-one-letter-generics",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"local-release": "changeset version && changeset publish"
+	},
+	"keywords": [],
+	"author": "Krzysztof Sordyl (https://sordyl.dev)",
+	"license": "MIT",
+	"repository": "https://github.com/Verthon/eslint-plugin-no-one-letter-generics",
+	"bugs": {
+		"url": "https://github.com/Verthon/eslint-plugin-no-one-letter-generics/issues"
+	},
+	"devDependencies": {
+		"@changesets/cli": "^2.27.8"
+	}
 }
