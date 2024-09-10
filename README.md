@@ -8,17 +8,17 @@ Install it with your package manager
 
 With npm:
 ```bash
-npm i -D plugin-no-one-letter-generics
+npm i -D eslint-plugin-no-one-letter-generics
 ```
 
 With pnpm:
 ```bash
-pnpm add -D plugin-no-one-letter-generics
+pnpm add -D eslint-plugin-no-one-letter-generics
 ```
 
 With yarn:
 ```bash
-yarn add plugin-no-one-letter-generics --dev
+yarn add eslint-plugin-no-one-letter-generics --dev
 ```
 
 ```json
